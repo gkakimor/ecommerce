@@ -1,0 +1,188 @@
+2023-09-04 19:10:37,514 [main] INFO  com.example.demo.SareetaApplication - Starting SareetaApplication on GabiKaki with PID 24924 (started by gabik in D:\Udacity\Java\04. Security and DevOps\nd035-c4-Security-and-DevOps-master\starter_code)
+2023-09-04 19:10:37,516 [main] INFO  com.example.demo.SareetaApplication - No active profile set, falling back to default profiles: default
+2023-09-04 19:10:37,902 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2023-09-04 19:10:37,955 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 4 repository interfaces.
+2023-09-04 19:10:38,337 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f4e8b5df] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-04 19:10:38,546 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-09-04 19:10:38,559 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-09-04 19:10:38,569 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-09-04 19:10:38,569 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.19]
+2023-09-04 19:10:38,679 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-09-04 19:10:38,679 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1121 ms
+2023-09-04 19:10:38,799 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-09-04 19:10:38,887 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-09-04 19:10:38,941 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2023-09-04 19:10:38,980 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+2023-09-04 19:10:38,982 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2023-09-04 19:10:39,086 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2023-09-04 19:10:39,185 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-09-04 19:10:39,748 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04 19:10:40,286 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-09-04 19:10:40,362 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f498f21, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a341e3d, org.springframework.security.web.header.HeaderWriterFilter@3186f8f5, org.springframework.web.filter.CorsFilter@90394d, org.springframework.security.web.authentication.logout.LogoutFilter@332fa1c, com.example.demo.security.JWTAuthenticationFilter@50caeb4b, com.example.demo.security.JWTAuthenticationVerficationFilter@6fafbdac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ee02968, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71e2843b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c7c07ff, org.springframework.security.web.session.SessionManagementFilter@69a3bf40, org.springframework.security.web.access.ExceptionTranslationFilter@66a93b25, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e2cd42c]
+2023-09-04 19:10:40,470 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-04 19:10:40,612 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-09-04 19:10:40,663 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-04 19:10:40,665 [main] INFO  com.example.demo.SareetaApplication - Started SareetaApplication in 3.362 seconds (JVM running for 3.709)
+2023-09-04 19:10:46,500 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-04 19:10:46,500 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-09-04 19:10:46,509 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-09-04 19:10:46,562 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabriela
+2023-09-04 19:10:46,563 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:10:46,656 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.UserController - UserController: createUser execution FINISHED.
+2023-09-04 19:10:53,586 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabriele
+2023-09-04 19:10:53,586 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:10:53,587 [http-nio-8080-exec-5] ERROR c.e.demo.controllers.UserController - UserController: createUser execution. Either length is less than 7 or pass and conf pass do not match. Unable to create user.
+2023-09-04 19:10:57,123 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabriele
+2023-09-04 19:10:57,123 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:10:57,124 [http-nio-8080-exec-7] ERROR c.e.demo.controllers.UserController - UserController: createUser execution. Either length is less than 7 or pass and conf pass do not match. Unable to create user.
+2023-09-04 19:11:03,349 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabriele
+2023-09-04 19:11:03,350 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:11:03,416 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.UserController - UserController: createUser execution FINISHED.
+2023-09-04 19:11:13,148 [http-nio-8080-exec-8] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2023-09-04 19:11:31,807 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:11:31,808 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriele
+2023-09-04 19:11:31,810 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 1
+2023-09-04 19:11:31,813 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:11:31,822 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:11:39,548 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:11:39,549 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela3
+2023-09-04 19:11:39,550 [http-nio-8080-exec-10] ERROR c.e.demo.controllers.CartController - CartController: addTocart execution. User Gabriela3 not found.
+2023-09-04 19:11:45,994 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:11:45,994 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:11:45,996 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 5
+2023-09-04 19:11:45,997 [http-nio-8080-exec-1] ERROR c.e.demo.controllers.CartController - CartController: addTocart execution. Item not found.
+2023-09-04 19:11:49,511 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:11:49,511 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:11:49,513 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 4
+2023-09-04 19:11:49,514 [http-nio-8080-exec-2] ERROR c.e.demo.controllers.CartController - CartController: addTocart execution. Item not found.
+2023-09-04 19:11:52,811 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:11:52,811 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:11:52,812 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 2
+2023-09-04 19:11:52,813 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:11:52,814 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:11:57,296 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:11:57,296 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:11:57,298 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 1
+2023-09-04 19:11:57,298 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:11:57,300 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:12:01,665 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:12:01,666 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:12:01,668 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 2
+2023-09-04 19:12:01,668 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:12:01,673 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:12:06,281 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:12:06,281 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:12:06,282 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 6
+2023-09-04 19:12:06,284 [http-nio-8080-exec-6] ERROR c.e.demo.controllers.CartController - CartController: addTocart execution. Item not found.
+2023-09-04 19:12:16,384 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution STARTED. Username: Gabriela
+2023-09-04 19:12:16,385 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution. Searching user Gabriela
+2023-09-04 19:12:16,386 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution. Saving order.
+2023-09-04 19:12:16,393 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution FINISHED.
+2023-09-04 19:12:24,816 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution STARTED. Username: Gabriela
+2023-09-04 19:12:24,816 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution. Searching user Gabriela
+2023-09-04 19:12:24,818 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution FINISHED.
+2023-09-04 19:12:31,769 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:12:31,769 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:12:31,772 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 2
+2023-09-04 19:12:31,773 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:12:31,777 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:12:36,640 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:12:36,640 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:12:36,642 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 1
+2023-09-04 19:12:36,643 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:12:36,647 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:12:39,635 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:12:39,635 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:12:39,637 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 3
+2023-09-04 19:12:39,637 [http-nio-8080-exec-1] ERROR c.e.demo.controllers.CartController - CartController: addTocart execution. Item not found.
+2023-09-04 19:12:44,072 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:12:44,072 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:12:44,073 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 2
+2023-09-04 19:12:44,074 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:12:44,077 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:12:47,192 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution STARTED. Username: Gabriela
+2023-09-04 19:12:47,192 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution. Searching user Gabriela
+2023-09-04 19:12:47,193 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution. Saving order.
+2023-09-04 19:12:47,197 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution FINISHED.
+2023-09-04 19:12:49,380 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution STARTED. Username: Gabriela
+2023-09-04 19:12:49,381 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution. Searching user Gabriela
+2023-09-04 19:12:49,382 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution FINISHED.
+2023-09-04 19:12:59,271 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:12:59,271 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:12:59,273 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 1
+2023-09-04 19:12:59,274 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:12:59,279 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:13:00,419 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:13:00,419 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:13:00,421 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 1
+2023-09-04 19:13:00,422 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:13:00,425 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:13:01,441 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:13:01,441 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:13:01,443 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 1
+2023-09-04 19:13:01,444 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:13:01,451 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:13:03,833 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:13:03,834 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:13:03,835 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 2
+2023-09-04 19:13:03,835 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:13:03,842 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:13:04,836 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:13:04,836 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:13:04,838 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 2
+2023-09-04 19:13:04,838 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:13:04,843 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:13:05,770 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:13:05,770 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:13:05,772 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 2
+2023-09-04 19:13:05,773 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Adding item to cart
+2023-09-04 19:13:05,777 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution FINISHED.
+2023-09-04 19:13:09,070 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:13:09,070 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:13:09,072 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 4
+2023-09-04 19:13:09,072 [http-nio-8080-exec-1] ERROR c.e.demo.controllers.CartController - CartController: addTocart execution. Item not found.
+2023-09-04 19:13:10,005 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution STARTED.
+2023-09-04 19:13:10,005 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching user Gabriela
+2023-09-04 19:13:10,007 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.CartController - CartController: addTocart execution. Searching item ID 4
+2023-09-04 19:13:10,007 [http-nio-8080-exec-2] ERROR c.e.demo.controllers.CartController - CartController: addTocart execution. Item not found.
+2023-09-04 19:13:13,364 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution STARTED. Username: Gabriela2
+2023-09-04 19:13:13,364 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution. Searching user Gabriela2
+2023-09-04 19:13:13,365 [http-nio-8080-exec-5] ERROR c.e.demo.controllers.OrderController - OrderController: submit execution. User Gabriela2 not found.
+2023-09-04 19:13:17,551 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution STARTED. Username: Gabriela
+2023-09-04 19:13:17,551 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution. Searching user Gabriela
+2023-09-04 19:13:17,552 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution. Saving order.
+2023-09-04 19:13:17,559 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.OrderController - OrderController: submit execution FINISHED.
+2023-09-04 19:13:21,449 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution STARTED. Username: Gabriela
+2023-09-04 19:13:21,449 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution. Searching user Gabriela
+2023-09-04 19:13:21,450 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.OrderController - OrderController: getOrdersForUser execution FINISHED.
+2023-09-04 19:13:34,805 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabi
+2023-09-04 19:13:34,805 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:13:34,867 [http-nio-8080-exec-6] INFO  c.e.demo.controllers.UserController - UserController: createUser execution FINISHED.
+2023-09-04 19:13:38,213 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabi2
+2023-09-04 19:13:38,213 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:13:38,276 [http-nio-8080-exec-3] INFO  c.e.demo.controllers.UserController - UserController: createUser execution FINISHED.
+2023-09-04 19:13:41,184 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabi23
+2023-09-04 19:13:41,184 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:13:41,246 [http-nio-8080-exec-8] INFO  c.e.demo.controllers.UserController - UserController: createUser execution FINISHED.
+2023-09-04 19:13:44,149 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabi243
+2023-09-04 19:13:44,150 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:13:44,215 [http-nio-8080-exec-9] INFO  c.e.demo.controllers.UserController - UserController: createUser execution FINISHED.
+2023-09-04 19:13:46,605 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.UserController - UserController: createUser execution STARTED. Username: Gabi2435
+2023-09-04 19:13:46,605 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.UserController - UserController: createUser execution. Saving cart.
+2023-09-04 19:13:46,672 [http-nio-8080-exec-10] INFO  c.e.demo.controllers.UserController - UserController: createUser execution FINISHED.
+2023-09-04 19:14:10,411 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.UserController - UserController: findById execution STARTED. User ID: 2
+2023-09-04 19:14:10,413 [http-nio-8080-exec-1] INFO  c.e.demo.controllers.UserController - UserController: findById execution FINISHED. User ID: 2
+2023-09-04 19:14:13,316 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.UserController - UserController: findById execution STARTED. User ID: 1
+2023-09-04 19:14:13,317 [http-nio-8080-exec-2] INFO  c.e.demo.controllers.UserController - UserController: findById execution FINISHED. User ID: 1
+2023-09-04 19:14:15,468 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.UserController - UserController: findById execution STARTED. User ID: 3
+2023-09-04 19:14:15,469 [http-nio-8080-exec-5] INFO  c.e.demo.controllers.UserController - UserController: findById execution FINISHED. User ID: 3
+2023-09-04 19:14:18,331 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.UserController - UserController: findById execution STARTED. User ID: 6
+2023-09-04 19:14:18,332 [http-nio-8080-exec-4] INFO  c.e.demo.controllers.UserController - UserController: findById execution FINISHED. User ID: 6
+2023-09-04 19:14:21,656 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.UserController - UserController: findById execution STARTED. User ID: 8
+2023-09-04 19:14:21,656 [http-nio-8080-exec-7] INFO  c.e.demo.controllers.UserController - UserController: findById execution FINISHED. User ID: 8
+2023-09-04 19:14:24,223 [Thread-3] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-04 19:14:24,224 [Thread-3] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-04 19:14:24,225 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-09-04 19:14:24,227 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
