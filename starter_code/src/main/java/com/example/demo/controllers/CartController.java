@@ -38,7 +38,7 @@ public class CartController {
 	
 	@PostMapping("/addToCart")
 	public ResponseEntity<Cart> addTocart(@RequestBody ModifyCartRequest request) {
-		log.info("CartController: addTocart execution STARTED.");
+		log.info("CartController: addTocart execution STARTED");
 		log.info("CartController: addTocart execution. Searching user " + request.getUsername());
 		User user = userRepository.findByUsername(request.getUsername());
 		if(user == null) {
